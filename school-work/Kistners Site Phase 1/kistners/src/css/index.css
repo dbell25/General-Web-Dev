@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body { 
+    background-color: #F2EBD0;
+}
+h1{
+    padding-top: 100px;
+    text-align: center;
+    color: #C9B66F;
+    font-family: vivaldi;
+    font-size: 72px; 
+}
+h2{
+    color: black;
+}
+h4{
+    color:#F2EBD0;
+    text-align: center;
+    font-size: 36px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    color:#F2EBD0;
+    text-align: center;
+    font-size: 18pt;
+    text-decoration: none;
+}
+.banner{
+    margin: 0px;
+    padding: 0px;
+    height: 265px;
+    color:#F2EBD0;
+    background-color:#83052B;
+    background-image: radial-gradient(#83052B,black);
+    font-family: vivaldi;
+}
+#card-field{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#featured{
+    font-size: 28pt;
+    color: black;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+#card{
+    height:325px;
+    width:325px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid #C9B66F 2px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+#card-image{
+    height:250px;
+    width:250px;
+    padding: 0px;
+}
+#motto{
+    margin-top: 55px;
+    padding: 0px;
+    height: 50px;
+    width: auto;
+    background-color: black;
+    font-family: vivaldi;
+}
+#navbar{
+    margin-top: 0px;
+    padding: 0px;
+    height: 60px;
+    width: auto;
+    background-color: black;
+    font-family: sans-serif;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #83052B;
+    background-image: radial-gradient(#83052B,black);
+    flex-shrink: 0;
+}

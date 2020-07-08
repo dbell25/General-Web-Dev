@@ -1,0 +1,37 @@
+<h1>Register User</h1>
+<form name="register" method="POST">
+    <table>
+        <tr>
+            <td>First name</td>
+            <td><input type="text" name="fname" required></td>
+        </tr>
+        <tr>
+            <td>Last name</td>
+            <td><input type="text" name="lname" required></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input type="text" name="phone"></td>
+        </tr>
+        <tr>
+            <td>Account Type</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="accessLevel" value=1 required>Customer</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Save"></td>
+        </tr>
+    </table>
+    <br />
+    Already a member?
+    <a href="/login">Login</a>
+</form>

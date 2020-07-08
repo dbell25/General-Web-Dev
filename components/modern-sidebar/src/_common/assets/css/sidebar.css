@@ -1,0 +1,47 @@
+/* Main CSS */
+.sidebar{
+   display: flex;
+   flex-direction: column;
+}
+#sidebar-body{
+    height: 100%;
+    width: 0;
+    color: white;
+    background-color: rgba(37, 89, 31, 0.7);
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+}
+#sidebar-toggle{
+    height: auto;
+    width: 100px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(37, 89, 31);
+    transition: 0.5s;
+    transform: rotate(90deg) translate(1em, 1.7em);
+}
+#sidebar-toggle-text{
+    padding: 10px;
+}
+/* Menu CSS */
+.sidebar-menu{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+.sidebar-menu-header, .sidebar-menu-item{
+    padding: 15px;
+}
+.sidebar-menu-header{
+    text-align: left;
+    font-size: x-large;
+}
+.sidebar-menu-item{
+    font-size: larger;
+} 
+.sidebar-menu-item:hover{
+    background-color: rgba(25, 39, 13, 0.1);
+}

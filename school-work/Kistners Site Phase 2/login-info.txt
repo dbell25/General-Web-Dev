@@ -1,0 +1,10 @@
+Test Users (each email corresponds to a different account type):
+
+username = admin@gmail.com
+password = password
+
+username = employee@gmail.com
+password = password
+
+username = customer@gmail.com
+password = password

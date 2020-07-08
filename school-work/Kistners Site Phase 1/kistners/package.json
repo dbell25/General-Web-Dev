@@ -1,0 +1,14 @@
+{
+  "name": "kistners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "MIT"
+}

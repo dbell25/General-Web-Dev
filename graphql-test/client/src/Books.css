@@ -1,0 +1,15 @@
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.input, .output{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    font-size: x-large;
+}

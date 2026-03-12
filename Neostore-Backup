@@ -1,0 +1,107 @@
+<style>
+    #ban {
+       background: none;
+       }
+       BODY {
+       background: url("https://cdn.pixabay.com/photo/2016/11/18/18/37/sacks-1836329_1280.jpg");
+       }
+       #header {
+       background: url("https://cdn.pixabay.com/photo/2016/12/18/09/04/trees-1915242_1280.jpg") no-repeat;
+       border-left: 5px ridge #654321;
+       border-right: 5px ridge #654321;
+       border-top: 5px ridge #654321;
+       border-bottom: none;
+       color: white;
+       }
+       #main {
+       background: none;
+       border: 0px;
+       }
+       #main {padding-top:0px;}
+       #content {
+       background: url("https://cdn.pixabay.com/photo/2016/12/18/09/04/trees-1915242_1280.jpg");
+       background-position: top left; text-align: center;
+       border-left: 5px ridge #654321;
+       border-right: 5px ridge #654321;
+       border-top: none;
+       border-bottom: 5px ridge #654321;
+       color: #654321;
+       }
+       #ban {
+       height: 90px;
+       }
+       #nst {
+       padding-right: 40px;
+       }
+       #template_nav {width:730px;padding-left:0px;}
+       .user {
+       padding-top: 1px;
+       padding-right: 45px;
+       color: #654321
+       }
+       .sidebar {
+       background: none;
+       padding-left: 50px;
+       }
+       .sidebarHeader a img {
+       height: 13px;
+       width: 13px;
+       }
+       .sidebarModule, #ban {
+       border: none;
+       }
+       .sidebarHeader {
+       background: #9a885d;
+       }
+       .contentModuleTable {
+       width: 100px;
+       }
+       ul.dropdown {
+       border: 2px solid #2c271c;
+       background: #e1d7b4;
+       }
+       hr {
+       width: 0px;
+       }
+       body, #main, #content, div, td{text-align:center;font:9pt verdana;color:#2c271c;}
+       #main a, a b {color: #2c271c; ;text-decoration: none;}
+       #main a:hover, a b:hover {color: #732022 ;}
+       #content a b, a {color: #2c271c; ;text-decoration: none;}
+       #content a:hover b, a:hover {color: #732022;}
+       #main b, b {color: #2c271c;}
+       #footer {
+       background: url("https://www.sunnyneo.com/shop/SHOP_PvN_ft.png") no-repeat;
+       padding-left: 105px;
+       height: 12px;
+       width: 995px;
+       overflow: hidden;
+       }
+       #footer table {
+       width: 81%;
+       }
+       .footerNifty, #footer table table td img, #pushdown_banner_btf {
+       height: 0;
+       width: 0;
+       overflow: hidden;
+       }
+       .copyright {
+       padding-left: 100px;
+       }
+       #pushdown_banner {
+       top: -999px;
+       height: 0px;
+       }
+       .content{
+       text-align: center;
+       color: #654321;
+       }
+       .eventIcon {
+       padding-top:0px;
+       color: #2c271c
+       }
+</style>
+<h1 style="text-align: center;">Welcome to The Shop!</h1>
+<p style="text-align: center; font-size:14px; font-family: cursive; font-weight: bold">
+    Shop Text Goes here!<br /><br /> While you're here, feel free to bookmark this page, and check out the freebies linked <a href="https://www.neopets.com/~Neo____Zafara" style="color:green">here
+</a>!
+</p>
